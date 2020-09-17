@@ -1,5 +1,6 @@
 # Indentation tips for Python
 
 1. Indent/Unindent blocks with "shift + >" OR "shift + <" in normal mode.
+
 2. autopep8 --in-place --aggressive --aggressive <filename>
 	2.1 It is required to install autopep8 first in your virtual enviornment using pip.
