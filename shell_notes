@@ -1,0 +1,14 @@
+# Python subprocess module notes and other things to remember to run shell commands in python effectively.
+
+1. How to run shell commands?
+
+	import subprocess as sp
+
+	def shell(cmd):                                                                                                                                            
+		""" Run a shell program """
+		p = sp.Popen(cmd, stdout=sp.PIPE, stderr=sp.STDOUT, universal_newlines=True, shell=True)
+			if cmd.rstrip()[-1] == "&":
+			    p.wait()
+			else:
+			    output = p.communicate()[0].split("\n")
+		return (p.returncode, output)
