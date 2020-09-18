@@ -4,3 +4,13 @@
 
 2. autopep8 --in-place --aggressive --aggressive <filename>
 	2.1 It is required to install autopep8 first in your virtual enviornment using pip.
+
+3. Modules needed to be experienced with
+
+	a. import pandas as pd
+	b. import numpy as np
+	c. import matplotlib
+		c.1 from matplotlib import pyplot as plt
+	d. import seaborn as sb
+
+

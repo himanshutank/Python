@@ -1,0 +1,17 @@
+
+
+
+Dictionary : { ‘key’ : ‘value’ }
+
+	- Imagine dict as ROW in excel. CAT NAMES IN ROWS.
+	- Imagine key as COLUMN in excel.
+	- Imagine Value as [ROW][COLUMN] in excel.
+
+	- EXCEL CONTEXT limits KEY,VALUE PAIR to COLUMN,ROW CELL. 
+	- Do not imagine multiple rows for a single key.
+	- Imagine multiple data types in a single cell (ROW,COLUMN) storing multiple data inside it, instead of each data in an 
+	  individual cell.
+
+	- Order of key, value pair does not matter in DICT.
+
+
